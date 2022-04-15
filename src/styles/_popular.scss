@@ -1,0 +1,58 @@
+.section-popular {
+  padding-top: 10rem;
+  padding-bottom: 16rem;
+  padding-left: 18rem;
+  padding-right: 18rem;
+  margin-top: -6rem;
+  transform: skewY(-5deg);
+  background-color: $white;
+  .section-content {
+    transform: skewY(5deg);
+    .popular-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-gap: 2rem;
+      border-radius: 7px;
+      padding-top: 2rem;
+      .popular-item {
+        background-color: $white;
+        border-radius: 7px;
+        box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.07);
+        border: 1px solid $grey-1;
+        transition: all 0.4s ease-in-out;
+        &:hover {
+          box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.2);
+        }
+        img {
+          width: 100%;
+          border-top-left-radius: 7px;
+          border-top-right-radius: 7px;
+          height: 350px;
+          object-fit: cover;
+        }
+
+        .popular-text {
+          padding: 1.5rem 1rem;
+          p {
+            padding-bottom: 1rem;
+            padding-top: 0.2rem;
+            font-size: 1rem;
+          }
+          h6 {
+            font-size: 1.4rem;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
+
+.title {
+  text-align: left;
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 1rem 0;
+  }
+}

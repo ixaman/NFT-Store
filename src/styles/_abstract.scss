@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+// fonts
+$primaryfont: "Poppins", sans-serif;
+
+// colors
+$white: #fff;
+$black: #000;
+$bg: #222260;
+$primary: #0acf83;
+$secondary: #f56692;
+$neutral-1: #f9fbfe;
+$neutral-2: #e5e9f2;
+$neutral-3: #d3d9e2;
+$neutral-4: #c0c6d4;
+$neutral-5: #a5b0c3;
+$neutral-6: #8e9cb2;
+$grey-light: rgb(21, 44, 91);
+$grey-0: #f8f8f8;
+$grey-1: #dbe1e8;
+$grey-2: #b2becd;
+$grey-3: #6c7983;
+$grey-4: #454e56;
+$grey-5: #2a2e35;
+$grey-6: #12181b;
+$grey-7: #0a0e12;
+
+//   fontsize
+$font-size: 17px;
+$font-size-md: 25px;
+$font-size-lg: 46px;
+
+//  mixins
+@mixin resetAtags {
+  color: $primary;
+  text-align: none;
+  display: inline-block;
+}

@@ -1,0 +1,64 @@
+.footer {
+  position: relative;
+  .f-title {
+    padding-bottom: 1.5rem;
+  }
+  h6 {
+    font-size: 1.2rem;
+    color: $white;
+    font-weight: 600;
+  }
+  a {
+    color: $grey-2;
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      color: $primary;
+    }
+  }
+  p {
+    color: $grey-2;
+  }
+  .footer-nav {
+    padding: 10rem 14rem;
+    display: flex;
+    justify-content: space-between;
+    .logo-f {
+      display: flex;
+      align-items: center;
+      img {
+        width: 40px;
+      }
+      p {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+        font-weight: 700;
+        color: $white;
+        letter-spacing: 2px;
+      }
+    }
+    .nav-item {
+      margin: 0.5rem 0;
+    }
+    .logo-con {
+      width: 40%;
+    }
+  }
+
+  .footer-rights {
+    padding: 2rem 14rem;
+    border-top: 1px solid $grey-4;
+    display: flex;
+    justify-content: space-between;
+    span {
+      color: $primary;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .icons {
+      a {
+        margin: 0 0.5rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

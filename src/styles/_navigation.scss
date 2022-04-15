@@ -1,0 +1,41 @@
+.navigation {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: $white;
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      width: 40px;
+    }
+    h6 {
+      font-size: $font-size-md;
+      margin-left: 0.5rem;
+      font-weight: 700;
+      color: $primary;
+    }
+  }
+  .nav-items {
+    display: flex;
+    align-items: center;
+    .nav-item {
+      a {
+        padding: 0 2rem;
+        font-family: inherit;
+        font-weight: 500;
+        color: $grey-3;
+        transition: color 0.2s ease-in-out;
+        &:hover {
+          color: $secondary;
+        }
+      }
+    }
+  }
+}
